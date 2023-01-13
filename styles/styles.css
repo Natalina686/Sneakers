@@ -7,7 +7,7 @@ h1 {
   font-style: normal;
   width: 1241px;
   font-size: 56px;
-
+  margin: 0;
   padding-left: 100px;
   line-height: 78.4px;
 }
@@ -55,6 +55,7 @@ ul {
   padding-top: 198px;
   padding-right: 179px;
   padding-bottom: 30px;
+  margin: 0;
 }
 
 .g-line {
@@ -101,4 +102,60 @@ ul {
   text-align: center;
   margin: 0 auto;
   padding: 200px;
+}
+
+.country-story {
+  display: flex;
+  padding: 127px 99px;
+  gap: 136px;
+}
+
+.country-img {
+}
+
+.sneakers-name {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 64px;
+}
+
+.about-white-sneakers {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38.4px;
+}
+
+.cactus {
+  background-image: url(/images/cactus.png);
+  background-repeat: no-repeat;
+}
+
+.cactus-item {
+  justify-content: right;
+}
+
+.next-step {
+  font-size: 56px;
+  text-align: right;
+  padding-top: 250px;
+  margin-right: 450px;
+}
+
+.the-next-step {
+  font-size: 56px;
+  line-height: 78.4px;
+  text-align: right;
+  padding-bottom: 476px;
+  margin-right: 175px;
+}
+
+.process {
+  background-image: url(/images/process-backgr.png);
+}
+
+.main-process {
+  display: flex;
 }
