@@ -2,23 +2,103 @@ body {
   font-family: "Tomorrow", sans-serif;
 }
 h1 {
-  font-family: "Sintony";
-  font-style: italic;
-  font-weight: 600px;
+  display: inline;
+  font-family: "Tomorrow";
+  font-style: normal;
+  width: 1241px;
+  font-size: 56px;
+
+  padding-left: 100px;
+  line-height: 78.4px;
 }
 ul {
   list-style: none;
 }
 
-.navigation {
-  list-style: none;
-  font-weight: 400;
-  font-size: 16px;
+.header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+.logo {
+  text-align: center;
+  margin-left: 100px;
+}
+.navigation {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  margin-right: 161px;
 }
 
 .navigation a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.premier {
+  display: flex;
+  background-image: url(/images/background-image.png);
+  position: relative;
+}
+
+.photo-sneakers {
+  float: right;
+  padding-top: 198px;
+  padding-right: 179px;
+  padding-bottom: 30px;
+}
+
+.g-line {
+  position: absolute;
+  bottom: 164px;
+  left: 254px;
+  z-index: -1;
+}
+
+.introduction {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 40px;
+  padding: 160px 100px;
+}
+.intro img {
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.history {
+  position: relative;
+  background-image: linear-gradient(#8aa195, #71af81),
+    url(/images/history-background.png);
+}
+
+/* .history::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #8aa195, #71af81);
+  opacity: 0.3;
+} */
+
+.history-item {
+  font-size: 56px;
+  line-height: 78.4px;
+  color: #ffffff;
+  width: 1040px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px;
 }
