@@ -24,6 +24,7 @@ ul {
   text-align: center;
   margin-left: 100px;
 }
+
 .navigation {
   display: flex;
   justify-content: right;
@@ -83,17 +84,6 @@ ul {
     url(/images/history-background.png);
 }
 
-/* .history::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(to bottom right, #8aa195, #71af81);
-  opacity: 0.3;
-} */
-
 .history-item {
   font-size: 56px;
   line-height: 78.4px;
@@ -108,9 +98,6 @@ ul {
   display: flex;
   padding: 127px 99px;
   gap: 136px;
-}
-
-.country-img {
 }
 
 .sneakers-name {
@@ -177,4 +164,359 @@ ul {
   font-weight: 400;
   font-size: 40px;
   line-height: 56px;
+}
+
+/* from mobile version */
+
+.forth {
+  width: 100%;
+  background-image: url(/images/bg-forth.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.process-title {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.process-par {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.6;
+  color: #000000;
+  /* width: 259px; */
+  margin-left: 20px;
+}
+
+.mat-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-around;
+}
+
+.materials {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+.materials ul {
+  padding-left: 20px;
+}
+
+.materials-title {
+  font-family: "Tomorrow";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.4;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.materials-list {
+  padding-left: 0;
+  text-align: left;
+}
+
+.materials-name {
+  font-family: "Sintony";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.materials-par {
+  font-family: "Sintony";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.materials-list img {
+  width: 182px;
+  height: 173px;
+  margin-bottom: 20px;
+}
+
+.fifth {
+  background-image: url(/images/bg-sustain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 862px;
+}
+
+.sustain {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sustain-name {
+  font-family: "Tomorrow";
+  font-weight: 700;
+  font-size: 56px;
+  padding-top: 200px;
+  /* line-height: 1.4;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 220px;
+  padding-bottom: 20px; */
+}
+
+.main-footer {
+  margin-top: 0;
+  padding-top: 50px;
+  /* width: 320px; */
+  background-image: url(/images/bg-footer.png);
+  background-size: cover;
+}
+
+.footer-list {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-name {
+  padding-left: 20px;
+}
+
+.footer-button {
+  display: block;
+  margin-left: 20px;
+  background: #000000;
+  color: #ffffff;
+  margin-right: 22px;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-list li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoo {
+    text-align: center;
+    margin-left: 8px;
+    width: 140px;
+    height: 14px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: right;
+    gap: 3px;
+    margin-right: 3px;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .new-sneakers {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 547px;
+  }
+
+  .first {
+    background: rgba(95, 98, 76, 0.4);
+  }
+
+  .new-sneakers-title {
+    font-family: "Tomorrow";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36.4px;
+    margin: 20px;
+  }
+
+  .intro {
+    position: relative;
+  }
+
+  .line {
+    width: 320px;
+    padding: 0;
+    margin: 0;
+    /* display: inline-flex;
+  align-self: flex-end; */
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+  }
+
+  .g-line,
+  .photo-sneakers {
+    display: none;
+  }
+
+  .forth {
+    background-image: url(/images/bg-forth.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .history {
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(#8aa195, #71af81),
+      url(/images/history-background.png);
+  }
+
+  .history-item {
+    font-size: 26px;
+    line-height: 1.4px;
+    color: #ffffff;
+    /* width: 100%; */
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 200px; */
+  }
+
+  .country-story {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .process-title {
+    font-family: "Tomorrow";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #000000;
+    margin-left: 20px;
+  }
+
+  .process-par {
+    font-family: "Sintony";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000000;
+    width: 259px;
+    margin-left: 20px;
+  }
+
+  .materials {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .materials ul {
+    padding-left: 20px;
+  }
+
+  .materials-title {
+    font-family: "Tomorrow";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.4;
+    margin-left: 20px;
+  }
+
+  .materials-list {
+    padding-left: 0;
+    text-align: left;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .materials-name {
+    font-family: "Sintony";
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .materials-par {
+    font-family: "Sintony";
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .materials-list img {
+    width: 182px;
+    height: 173px;
+    margin-bottom: 20px;
+  }
+
+  .fifth {
+    background-image: url(/images/bg-sustain.png);
+    height: 320px;
+    display: flex;
+  }
+
+  .sustain-name {
+    font-family: "Tomorrow";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.4;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 220px;
+    padding-bottom: 20px;
+  }
+
+  .main-footer {
+    margin-top: 0;
+    padding-top: 50px;
+    width: 320px;
+    background-image: url(/images/bg-footer.png);
+  }
+
+  .footer-list {
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .footer-name {
+    padding-left: 20px;
+  }
+
+  .footer-button {
+    display: block;
+    margin-left: 20px;
+    background: #000000;
+    color: #ffffff;
+    margin-right: 22px;
+  }
+
+  .footer-logo {
+    display: flex;
+  }
+
+  .footer-list li a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .footer-list li {
+    margin-bottom: 10px;
+  }
 }
